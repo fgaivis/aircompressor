@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>ECGriffith</title>
+        <title>Air Compressor</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 		<!-- jQueryMobileCSS - styling-->
@@ -66,7 +66,7 @@
             var directionsService = new google.maps.DirectionsService();
             function initialize(lati,longi) { 
                 directionsDisplay = new google.maps.DirectionsRenderer();
-                myLatlng = new google.maps.LatLng(35.200548,-80.835095);  
+                myLatlng = new google.maps.LatLng(34.881508, -82.411188);  
                 myLatlng3 = new google.maps.LatLng(lati, longi); 
                 var mapOptions = { 
                     zoom: 8, 
@@ -89,8 +89,8 @@
                 myMark.setMap(map);
                
                 var infotext = "<div><div>" +
-                    "<span style='font-size:18px;font-weight:bold; left:35px'>Logical Advantage</span><br>" +
-                    "<a href=\"javascript:calcRoute(35.200548,-80.835095)\"> 1944 Brunswick Avenue <br> Charlotte, NC 28207 </a><br>"+     
+                    "<span style='font-size:18px;font-weight:bold; left:35px'>Air Compressor Services</span><br>" +
+                    "<a href=\"javascript:calcRoute(35.200548,-80.835095)\"> 3 Custom Mill Court <br> Greenville, SC 29609 </a><br>"+
                     "<a href=\"tel:+17043327173\">+1(704)332-7173</a>" +
                     "</div></div>";
                 
@@ -130,7 +130,7 @@
         <meta name="format-detection" content="telephone=no" /> 
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" /> 
         <link rel="stylesheet" type="text/css" href="css/index.css" /> 
-        <title>Pools And Play Location</title> 
+        <title>Air Compressor Services Location</title>
         <style type="text/css"> 
            #map-canvas{ 
                 width:100%; 
@@ -144,29 +144,29 @@
     
         <div data-role="page" data-theme='a'>
         
-            <div data-role="panel" data-display="push" id="sidebar" data-theme="a" style="background-color:#D0CC82; border:none;">
+            <div data-role="panel" data-display="push" id="sidebar" data-theme="a" style="background-color:#B0252A; border:none;">
                 <ul data-role="listview">
                     <li data-icon='false'><a data-ajax="false" href="index.html" style="color:#000">Home</a></li>
                     <li data-icon='false'><a data-ajax="false" href="aboutus.html" style="color:#000">About Us</a></li>
-                    <li data-icon='false'><a data-ajax="false" href="services.html" style="color:#000">Services</a></li>
+                    <li data-icon='false'><a data-ajax="false" href="services.html" style="color:#000">Products</a></li>
                     <li data-icon='false'><a data-ajax="false" href="contactus.html" style="color:#000">Contact Us</a></li>
                 </ul>
             </div> 
     
-            <div data-role="header" data-tap-toggle="false" data-theme='a' style="background-color:#D0CC82; position:fixed; top:0; z-index:9000; height:50px; border:none">
+            <div data-role="header" data-tap-toggle="false" data-theme='a' style="background-color:#B0252A; position:fixed; top:0; z-index:9000; height:50px; border:none">
                 <a href='#sidebar'data-role="none">
                 	<img src="images/menu-icon-bk.png" alt="sidebar" id="header-menu-icon" style="top:20px" />
 				</a>
             </div>
             <div>
-                	<img src="images/logo.png" style="position:fixed; top:20px; right:5px; z-index:1000; width:30%" />
+                	<img src="images/logo.png" style="position:fixed; top:2px; right:5px; z-index:1000; width:15%" />
 			</div>
             
             <div data-role="content">
                 <div style="position:relative; top:0px">
                     <div class="row">
                         <div style="background-image:url(images/2014/10/title-bg.jpg); position:relative; top:15px" align="center">
-	                        <img src="images/2014/10/griffith_hero1.jpg" alt="Grab" class="img-responsive">
+	                        <img src="images/2014/10/front-oil-img.jpg" alt="Grab" class="img-responsive">
                             <h1>Contact Us</h1>
                         </div>
                     </div>
@@ -180,9 +180,12 @@
                                         <br>
                                         <br>
                                     </h2>
-                                    <button type="button" onClick="window.plugins.socialsharing.shareViaEmail('Please enter your information:<br><br>Name:<br><br>Phone:<br><br>Message:','You have a new contact message from your mobile App',['pgriffith@ecgriffith.us','oms@cgrcreative.com']);" class="btn btn-default" style="background-color:#D0CC82; color:#000">
-										Mail Us
+                                    <button type="button" onClick="window.plugins.socialsharing.shareViaEmail('Please enter your information:<br><br>Name:<br><br>Phone:<br><br>Message:','You have a new contact message from your mobile App',['Returns@aircompressorservices.com','oms@cgrcreative.com']);" class="btn btn-default" style="background-color:#B0252A; color:#000">
+                                        Returns: Mail Us
 									</button>
+                                    <button type="button" onClick="window.plugins.socialsharing.shareViaEmail('Please enter your information:<br><br>Name:<br><br>Phone:<br><br>Message:','You have a new contact message from your mobile App',['Shipping@aircompressorservices.com','oms@cgrcreative.com']);" class="btn btn-default" style="background-color:#B0252A; color:#000">
+                                        Shipping: Mail Us
+                                    </button>
                                     <p><br><br><br><br></p>
                                 </div>
                             </div>
